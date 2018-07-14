@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Groot guessing game!</title>
+    <script>
+        module = {}
+    </script>
+    <script src="guessG.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/lapIcon.png">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Play|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="guess.css" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <div id="links">
+            <a href="/">
+                Home
+            </a>
+            <br>
+            <a href="/aboutme.html">
+                About me
+            </a>
+            <br>
+            <a href="/projects.html">
+                Projects
+            </a>
+            <br>
+            <a href="/contactInfo.html">
+                Contact me
+            </a>
+        </div>
+    </nav>
+    <img class="element" src="images/angry-groot.jpg" title="I am Groot!" alt="Groot">
+    <h1>Groot Guessing Game</h1>
+    <p>Submit the maximum guess number before starting;</p>
+    <input class="inputbox" id="maxGuess" type="text" value="100" />
+    <button id="submitB" onclick="handleSubmit()">Submit</button>
+
+    <div id="pick"></div>
+    <div id="hGame"></div>
+
+    <div id="main">
+    </div>
+
+    <pre id="output" class="outline">
+    </pre>
+
+    <script>
+        listenForEnterKeyOnSubmit();
+    </script>
+</body>
+</html>
