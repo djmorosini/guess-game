@@ -8,6 +8,6 @@ Includes two games, guessing the computers number or computer guesses your numbe
 
 To run locally;
 
-git clone 'repo'
-npm install
-npm start
+1. git clone 'repo'
+2. npm install
+3. npm start
