@@ -1,4 +1,4 @@
-# guess-game
+# Guess-Game
 
 [Guess game page](https://djmorosini.github.io/guess-game/)
 
