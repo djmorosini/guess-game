@@ -1,6 +1,6 @@
 # guess-game
 
-[Guess game](https://djmorosini.github.io/guess-game/)
+[Guess game page](https://djmorosini.github.io/guess-game/)
 
 Number guessing game using javascript DOM scripting to add and remove elements from page. 
 
