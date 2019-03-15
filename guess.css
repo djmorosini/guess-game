@@ -1,6 +1,7 @@
 body {
     background-image: url("images/groot.jpg");
     color: green;
+    background-color: black;
     background-position: top right;
     background-size: 1200px;
     text-shadow: 1px 1px 0px black,
